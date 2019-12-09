@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -584,7 +584,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1AAF)
-    (at 93.666 68.515)
+    (at 93.666 67.753)
     (path /5DEECD42/5EB50210)
     (fp_text reference D108 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -624,7 +624,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF23F7)
-    (at 93.285 59.625)
+    (at 93.158 54.545)
     (path /5DEECD42/5EB501E4)
     (fp_text reference D107 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -664,7 +664,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1A7F)
-    (at 92.777 48.195)
+    (at 92.777 47.255)
     (path /5DEECD42/5EB4FF60)
     (fp_text reference D106 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -704,7 +704,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF23C7)
-    (at 93.412 40.956)
+    (at 93.412 38.924)
     (path /5DEECD42/5EB4FF34)
     (fp_text reference D105 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -744,7 +744,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1A4F)
-    (at 94.428 31.558)
+    (at 94.428 31.431)
     (path /5DEECD42/5EB1772A)
     (fp_text reference D104 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -784,7 +784,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2397)
-    (at 93.031 23.557)
+    (at 93.031 22.033)
     (path /5DEECD42/5EB176FE)
     (fp_text reference D103 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -824,7 +824,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1A1F)
-    (at 94.047 12.762)
+    (at 94.047 12.508)
     (path /5DEECD42/5EB008AE)
     (fp_text reference D102 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -984,7 +984,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B9F)
-    (at 86.427 67.499)
+    (at 86.427 66.737)
     (path /5DEECD42/5EB5022D)
     (fp_text reference D98 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1024,7 +1024,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2307)
-    (at 83.76 58.736)
+    (at 83.633 54.545)
     (path /5DEECD42/5EB501CB)
     (fp_text reference D97 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1064,7 +1064,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B6F)
-    (at 83.252 48.068)
+    (at 83.252 47.255)
     (path /5DEECD42/5EB4FF7D)
     (fp_text reference D96 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1104,7 +1104,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF22D7)
-    (at 82.998 40.829)
+    (at 82.998 38.924)
     (path /5DEECD42/5EB4FF1B)
     (fp_text reference D95 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1144,12 +1144,12 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B3F)
-    (at 85.538 31.304 270)
+    (at 85.03 31.431)
     (path /5DEECD42/5EB17747)
-    (fp_text reference D94 (at 0 6.35 90) (layer F.SilkS)
+    (fp_text reference D94 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
     )
-    (fp_text value WS2813-Mini (at 0 -7.62 90) (layer F.Fab)
+    (fp_text value WS2813-Mini (at 0 -7.62) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.8 1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.12))
@@ -1164,17 +1164,17 @@
     (fp_line (start 1.75 1.75) (end -1.75 1.75) (layer F.Fab) (width 0.12))
     (fp_line (start 1.75 -1.75) (end 1.75 1.75) (layer F.Fab) (width 0.12))
     (fp_line (start -1.75 -1.75) (end 1.75 -1.75) (layer F.Fab) (width 0.12))
-    (pad 6 smd roundrect (at 1.5 -1.1 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 6 smd roundrect (at 1.5 -1.1) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 78 "Net-(D104-Pad3)"))
-    (pad 4 smd roundrect (at 1.5 1.1 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 4 smd roundrect (at 1.5 1.1) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 78 "Net-(D104-Pad3)"))
-    (pad 5 smd roundrect (at 1.5 0 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 5 smd roundrect (at 1.5 0) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (pad 3 smd roundrect (at -1.5 1.1 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 3 smd roundrect (at -1.5 1.1) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 120 "Net-(D84-Pad4)"))
-    (pad 2 smd roundrect (at -1.5 0 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at -1.5 0) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 +5V))
-    (pad 1 smd rect (at -1.5 -1.1 270) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.5 -1.1) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask)
       (net 2 +5V))
     (model :3D:william_led.3d/WS2813-Mini.STEP
       (offset (xyz 0 0 0.2))
@@ -1184,7 +1184,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF22A7)
-    (at 83.252 23.176)
+    (at 83.252 22.033)
     (path /5DEECD42/5EB176E5)
     (fp_text reference D93 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1224,7 +1224,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B0F)
-    (at 86.808 12.762)
+    (at 86.808 12.508)
     (path /5DEECD42/5EB008CB)
     (fp_text reference D92 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1384,7 +1384,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1C8F)
-    (at 77.791 68.261)
+    (at 77.791 67.499)
     (path /5DEECD42/5EB5024C)
     (fp_text reference D88 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1424,7 +1424,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2217)
-    (at 75.251 58.482)
+    (at 75.124 54.545)
     (path /5DEECD42/5EB501B0)
     (fp_text reference D87 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1464,7 +1464,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1C5F)
-    (at 76.267 48.449)
+    (at 76.267 47.255)
     (path /5DEECD42/5EB4FF9C)
     (fp_text reference D86 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1504,7 +1504,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF21E7)
-    (at 74.87 39.94)
+    (at 74.87 38.924)
     (path /5DEECD42/5EB4FF00)
     (fp_text reference D85 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1584,7 +1584,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF21B7)
-    (at 74.997 23.684)
+    (at 74.997 22.033)
     (path /5DEECD42/5EB176CA)
     (fp_text reference D83 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1624,7 +1624,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1BFF)
-    (at 78.299 12.635)
+    (at 78.299 12.508)
     (path /5DEECD42/5EB008EA)
     (fp_text reference D82 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1784,7 +1784,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1D7F)
-    (at 72.838 67.88)
+    (at 72.838 67.118)
     (path /5DEECD42/5EB50265)
     (fp_text reference D78 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1824,7 +1824,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2127)
-    (at 66.869 58.355)
+    (at 66.742 54.545)
     (path /5DEECD42/5EB50182)
     (fp_text reference D77 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1864,7 +1864,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1D4F)
-    (at 70.843 45.02)
+    (at 70.843 47.255)
     (path /5DEECD42/5EB4FFB5)
     (fp_text reference D76 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1904,7 +1904,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF20F7)
-    (at 69.028 38.797)
+    (at 69.028 38.924)
     (path /5DEECD42/5EB4FED2)
     (fp_text reference D75 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -1984,7 +1984,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF20C7)
-    (at 67.758 23.303)
+    (at 67.758 22.033)
     (path /5DEECD42/5EB1769C)
     (fp_text reference D73 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2024,7 +2024,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1CEF)
-    (at 73.092 11.873)
+    (at 73.092 12.508)
     (path /5DEECD42/5EB00903)
     (fp_text reference D72 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2184,7 +2184,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1E6F)
-    (at 62.805 72.579)
+    (at 62.805 71.817)
     (path /5DEECD42/5EB5028A)
     (fp_text reference D68 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2224,7 +2224,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2037)
-    (at 58.614 57.974)
+    (at 58.487 54.545)
     (path /5DEECD42/5EB50169)
     (fp_text reference D67 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2264,7 +2264,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1E3F)
-    (at 62.932 47.687)
+    (at 62.932 47.255)
     (path /5DEECD42/5EB4FFDA)
     (fp_text reference D66 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2304,7 +2304,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF2007)
-    (at 62.551 39.051)
+    (at 62.551 38.924)
     (path /5DEECD42/5EB4FEB9)
     (fp_text reference D65 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2384,7 +2384,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1FD7)
-    (at 59.503 23.43)
+    (at 59.503 22.033)
     (path /5DEECD42/5EB17683)
     (fp_text reference D63 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2424,7 +2424,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1DDF)
-    (at 66.361 11.492)
+    (at 66.361 12.508)
     (path /5DEECD42/5EB00928)
     (fp_text reference D62 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2584,7 +2584,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1F5F)
-    (at 54.042 75.119)
+    (at 54.042 74.357)
     (path /5DEECD42/5EB502A3)
     (fp_text reference D58 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2624,7 +2624,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1F47)
-    (at 50.74 58.228)
+    (at 50.613 54.545)
     (path /5DEECD42/5EB5014B)
     (fp_text reference D57 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2664,7 +2664,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1F2F)
-    (at 53.788 45.02)
+    (at 53.788 47.255)
     (path /5DEECD42/5EB4FFF3)
     (fp_text reference D56 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2704,7 +2704,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1F17)
-    (at 53.026 38.162)
+    (at 53.026 38.924)
     (path /5DEECD42/5EB4FE9B)
     (fp_text reference D55 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2784,7 +2784,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1EE7)
-    (at 52.772 22.414)
+    (at 52.772 22.033)
     (path /5DEECD42/5EB17665)
     (fp_text reference D53 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2824,7 +2824,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1ECF)
-    (at 57.344 11.365)
+    (at 57.344 12.508)
     (path /5DEECD42/5EB00941)
     (fp_text reference D52 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -2984,7 +2984,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF204F)
-    (at 45.406 75.119)
+    (at 45.406 74.357)
     (path /5DEECD42/5EB502C1)
     (fp_text reference D48 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3024,7 +3024,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1E57)
-    (at 42.993 57.974)
+    (at 42.866 54.545)
     (path /5DEECD42/5EB50132)
     (fp_text reference D47 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3064,7 +3064,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF201F)
-    (at 45.279 45.528)
+    (at 45.279 47.255)
     (path /5DEECD42/5EB50011)
     (fp_text reference D46 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3104,7 +3104,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1E27)
-    (at 44.771 39.178)
+    (at 44.771 38.924)
     (path /5DEECD42/5EB4FE82)
     (fp_text reference D45 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3184,7 +3184,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1DF7)
-    (at 45.533 22.414)
+    (at 45.533 22.033)
     (path /5DEECD42/5EB1764C)
     (fp_text reference D43 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3224,7 +3224,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1FBF)
-    (at 46.93 11.873)
+    (at 46.93 12.508)
     (path /5DEECD42/5EB0095F)
     (fp_text reference D42 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3384,7 +3384,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF213F)
-    (at 36.262 74.865)
+    (at 36.262 74.103)
     (path /5DEECD42/5EB502DA)
     (fp_text reference D38 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3424,7 +3424,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1D67)
-    (at 34.23 56.069)
+    (at 34.103 54.545)
     (path /5DEECD42/5EB5010D)
     (fp_text reference D37 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3464,7 +3464,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF210F)
-    (at 35.881 46.925)
+    (at 35.881 47.255)
     (path /5DEECD42/5EB5002A)
     (fp_text reference D36 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3504,7 +3504,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1D37)
-    (at 36.008 40.067)
+    (at 36.008 38.924)
     (path /5DEECD42/5EB4FE5D)
     (fp_text reference D35 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3584,7 +3584,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1D07)
-    (at 36.77 22.414)
+    (at 36.77 22.033)
     (path /5DEECD42/5EB17627)
     (fp_text reference D33 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3624,7 +3624,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF20AF)
-    (at 34.865 12.127)
+    (at 34.865 12.508)
     (path /5DEECD42/5EB00978)
     (fp_text reference D32 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3784,7 +3784,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF222F)
-    (at 27.118 74.357)
+    (at 27.118 73.595)
     (path /5DEECD42/5EB50308)
     (fp_text reference D28 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3824,7 +3824,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1C77)
-    (at 26.52 55.561)
+    (at 26.393 54.545)
     (path /5DEECD42/5EB500F4)
     (fp_text reference D27 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3864,7 +3864,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF21FF)
-    (at 27.118 46.798)
+    (at 27.118 47.255)
     (path /5DEECD42/5EB50058)
     (fp_text reference D26 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3904,7 +3904,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1C47)
-    (at 26.229 39.051)
+    (at 26.229 38.924)
     (path /5DEECD42/5EB4FE44)
     (fp_text reference D25 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -3984,7 +3984,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1C17)
-    (at 24.832 22.16)
+    (at 24.832 22.033)
     (path /5DEECD42/5EB1760E)
     (fp_text reference D23 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4024,7 +4024,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF219F)
-    (at 26.102 12.127)
+    (at 26.102 12.508)
     (path /5DEECD42/5EB009A6)
     (fp_text reference D22 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4184,7 +4184,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF231F)
-    (at 18.228 74.357)
+    (at 18.228 73.595)
     (path /5DEECD42/5EB50323)
     (fp_text reference D18 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4224,7 +4224,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B87)
-    (at 17.72 55.815)
+    (at 17.593 54.545)
     (path /5DEECD42/5EB500D5)
     (fp_text reference D17 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4264,7 +4264,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF22EF)
-    (at 17.339 47.052)
+    (at 17.339 47.255)
     (path /5DEECD42/5EB50073)
     (fp_text reference D16 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4304,7 +4304,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B57)
-    (at 16.45 39.051)
+    (at 16.45 38.924)
     (path /5DEECD42/5EB4FE25)
     (fp_text reference D15 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4384,7 +4384,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1B27)
-    (at 16.577 21.906)
+    (at 16.577 22.033)
     (path /5DEECD42/5EB175EF)
     (fp_text reference D13 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4424,7 +4424,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF228F)
-    (at 17.847 12.381)
+    (at 17.847 12.508)
     (path /5DEECD42/5EB009C1)
     (fp_text reference D12 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
@@ -4583,7 +4583,7 @@
   )
 
   (module william_led:WS2813-Mini-3.5mm_x_3.5mm (layer F.Cu) (tedit 5DEEC2D9) (tstamp 5DEF1A97)
-    (at 8.957 55.053)
+    (at 8.83 54.545)
     (path /5DEECD42/5EB500B8)
     (fp_text reference D7 (at 0 6.35) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.13)))
