@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# william_dfa_Fiducial
+#
+DEF william_dfa_Fiducial FID 0 0 Y N 1 F N
+F0 "FID" 0 150 50 H V C CNN
+F1 "william_dfa_Fiducial" 0 -150 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+$FPLIST
+ fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 1 1 0 f
+P 2 1 1 0 -100 0 100 0 N
+P 2 1 1 0 0 100 0 -100 N
+ENDDRAW
+ENDDEF
+#
+# william_logos_DOW
+#
+DEF william_logos_DOW G 0 40 Y Y 1 F N
+F0 "G" 0 100 50 H V L CNN
+F1 "william_logos_DOW" 0 0 50 H V L CNN
+F2 "william_logos:dow_logo_10mm" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# william_logos_MEC
+#
+DEF william_logos_MEC G 0 40 Y Y 1 F N
+F0 "G" 0 50 50 H V L CNN
+F1 "william_logos_MEC" 0 -50 50 H V L CNN
+F2 "william_logos:mec_small" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

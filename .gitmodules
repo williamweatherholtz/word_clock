@@ -1,0 +1,3 @@
+[submodule "subs"]
+	path = subs
+	url = https://github.com/williamweatherholtz/kicad_subs

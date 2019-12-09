@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Dow_Logo-william
+#
+DEF Dow_Logo-william G 0 40 Y Y 1 F N
+F0 "G" 0 0 59 H V C CNN
+F1 "Dow_Logo-william" 0 100 59 H V C CNN
+F2 "" 0 0 197 H I C CNN
+F3 "" 0 0 197 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# Fiducial-william_dfa
+#
+DEF Fiducial-william_dfa FID 0 0 Y N 1 F N
+F0 "FID" 0 150 50 H V C CNN
+F1 "Fiducial-william_dfa" 0 -150 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+$FPLIST
+ fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 1 1 0 f
+P 2 1 1 0 -100 0 100 0 N
+P 2 1 1 0 0 100 0 -100 N
+ENDDRAW
+ENDDEF
+#
+# MEC_Logo-william
+#
+DEF MEC_Logo-william G 0 40 Y Y 1 F N
+F0 "G" 0 0 59 H V C CNN
+F1 "MEC_Logo-william" 0 250 59 H V C CNN
+F2 "" 0 0 197 H I C CNN
+F3 "" 0 0 197 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library
