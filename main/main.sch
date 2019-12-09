@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -8,7 +7,7 @@ Sheet 1 1
 Title ""
 Date ""
 Rev "0.0.0"
-Comp "Dow Chemical"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
