@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev "0.0.0"
@@ -80,28 +80,6 @@ F 3 "~" H 6300 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_logos:DOW G1
-U 1 1 5D9BA876
-P 5800 6700
-F 0 "G1" H 5825 6746 50  0000 L CNN
-F 1 "DOW" H 5825 6655 50  0000 L CNN
-F 2 "william_logos:dow_logo_10mm" H 5800 6800 50  0001 C CNN
-F 3 "" H 5800 6800 50  0001 C CNN
-	1    5800 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L william_logos:MEC G2
-U 1 1 5D9BAA57
-P 5800 6900
-F 0 "G2" H 5825 6946 50  0000 L CNN
-F 1 "MEC" H 5825 6855 50  0000 L CNN
-F 2 "william_logos:mec_small" H 5800 6950 50  0001 C CNN
-F 3 "" H 5800 6950 50  0001 C CNN
-	1    5800 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L william_dfa:Fiducial FID3
 U 1 1 5D9BDAFA
 P 5700 7650
@@ -112,4 +90,20 @@ F 3 "" H 5700 7800 50  0001 C CNN
 	1    5700 7650
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 7500 3250 700  500 
+U 5DEECD42
+F0 "LEDs" 50
+F1 "led_array.sch" 50
+F2 "5V" I L 7500 3350 50 
+F3 "DIN" I L 7500 3500 50 
+F4 "DOUT" O R 8200 3500 50 
+F5 "GND" O L 7500 3650 50 
+$EndSheet
+$Sheet
+S 3950 2050 1950 1000
+U 5F8F0BCD
+F0 "mic" 50
+F1 "../subs/stm32f401rbXX.sch" 50
+$EndSheet
 $EndSCHEMATC
