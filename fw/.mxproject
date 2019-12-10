@@ -12,6 +12,16 @@ SourceFiles#1=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src/stm32f4x
 SourceFiles#2=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src/main.c
 SourceFolderListSize=1
 SourcePath#0=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src
+HeaderFiles#3=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Inc/stm32f4xx_it.h
+HeaderFiles#4=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Inc/stm32f4xx_hal_conf.h
+HeaderFiles#5=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Inc/main.h
+HeaderPath#1=C:/Users/ua18387/Desktop/local git/word_clock/fw/USB_DEVICE/Target
+HeaderPath#2=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Inc
+SourceFiles#3=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src/stm32f4xx_it.c
+SourceFiles#4=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src/stm32f4xx_hal_msp.c
+SourceFiles#5=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src/main.c
+SourcePath#1=C:/Users/ua18387/Desktop/local git/word_clock/fw/USB_DEVICE/Target
+SourcePath#2=C:/Users/ua18387/Desktop/local git/word_clock/fw/Core/Src
 HeaderFiles=;
 SourceFiles=;
 
