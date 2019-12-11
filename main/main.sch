@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev "0.0.0"
@@ -519,4 +519,10 @@ F 3 "https://datasheet.lcsc.com/szlcsc/1811061923_Q-J-CR2032-BS-6-1_C70377.pdf" 
 	1    1200 2750
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6550 2150 1050 500 
+U 5E03117E
+F0 "Sheet5E03117D" 50
+F1 "../subs/nfet.sch" 50
+$EndSheet
 $EndSCHEMATC
