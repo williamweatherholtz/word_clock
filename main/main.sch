@@ -68,17 +68,6 @@ F4 "DOUT" O R 7550 3500 50
 F5 "GND" O L 6850 3650 50 
 $EndSheet
 $Comp
-L Device:Battery_Cell BT1
-U 1 1 5F9E5BE0
-P 1200 2750
-F 0 "BT1" H 1318 2846 50  0000 L CNN
-F 1 "RTC battery" H 1318 2755 50  0000 L CNN
-F 2 "william_batteries:Keystone_3034_1x20mm-CoinCell" V 1200 2810 50  0001 C CNN
-F 3 "~" V 1200 2810 50  0001 C CNN
-	1    1200 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_B_Micro J1
 U 1 1 5F9EC118
 P 1250 1350
@@ -133,17 +122,6 @@ F 1 "GND" H 1205 2677 50  0000 C CNN
 F 2 "" H 1200 2850 50  0001 C CNN
 F 3 "" H 1200 2850 50  0001 C CNN
 	1    1200 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:AP1117-33 U1
-U 1 1 5F9EFF5E
-P 3650 1100
-F 0 "U1" H 3650 1342 50  0000 C CNN
-F 1 "AP1117-33" H 3650 1251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3650 1300 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 3750 850 50  0001 C CNN
-	1    3650 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -515,4 +493,30 @@ Wire Wire Line
 	2800 1100 3350 1100
 Wire Wire Line
 	2800 1400 3650 1400
+Text Notes 4150 1600 0    50   ~ 0
+LCSC pn:\nC141407
+$Comp
+L william_dc_ldo:LN6206P332MR-G U1
+U 1 1 5DF1CFB8
+P 3650 1150
+F 0 "U1" H 3650 1442 50  0000 C CNN
+F 1 "LN6206P332MR-G" H 3650 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3800 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810311908_NATLINEAR-LN6206P332MR-G_C141407.pdf" H 3800 1500 50  0001 C CNN
+	1    3650 1150
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 2450 0    50   ~ 0
+RTC cell
+$Comp
+L william_connectors:CR2032-BS-6-1 BT1
+U 1 1 5DF2AF87
+P 1200 2750
+F 0 "BT1" H 1318 2846 50  0000 L CNN
+F 1 "CR2032-BS-6-1" H 1318 2755 50  0000 L CNN
+F 2 "william_batteries:CR2032-BS-6-1" V 1200 2810 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811061923_Q-J-CR2032-BS-6-1_C70377.pdf" V 1200 2810 50  0001 C CNN
+	1    1200 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
