@@ -18,7 +18,7 @@ Text HLabel 700  550  0    50   Input ~ 0
 5V
 Text HLabel 700  800  0    50   Input ~ 0
 DIN
-Text HLabel 650  6200 0    50   Output ~ 0
+Text HLabel 4550 6800 2    50   Output ~ 0
 DOUT
 Text HLabel 700  1050 0    50   Output ~ 0
 GND
@@ -2113,14 +2113,12 @@ Connection ~ 2600 6450
 Connection ~ 3500 5950
 Connection ~ 3500 6450
 Wire Wire Line
-	900  6200 650  6200
-Wire Wire Line
 	500  4400 900  4400
 Wire Wire Line
 	500  5600 900  5600
 Wire Wire Line
 	500  3200 900  3200
-Text Notes 850  7100 0    50   ~ 0
+Text Notes 800  7600 0    50   ~ 0
 20mA per LED\n20mA*3 = 60mA per IC\n110*60mA = 6.6A per array
 Wire Wire Line
 	11050 800  11050 1400
@@ -4478,4 +4476,172 @@ Wire Wire Line
 Connection ~ 10250 6450
 Wire Wire Line
 	10250 6450 10800 6450
+$Comp
+L Device:C C?
+U 1 1 5FC302C1
+P 1700 6800
+F 0 "C?" H 1700 6900 50  0000 L CNN
+F 1 "100N" H 1600 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1738 6650 50  0001 C CNN
+F 3 "~" H 1700 6800 50  0001 C CNN
+	1    1700 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6650 1700 6550
+Wire Wire Line
+	1700 6950 1700 7050
+Wire Wire Line
+	1600 6800 1800 6800
+$Comp
+L Device:C C?
+U 1 1 5FC302CE
+P 2600 6800
+F 0 "C?" H 2600 6900 50  0000 L CNN
+F 1 "100N" H 2500 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 6650 50  0001 C CNN
+F 3 "~" H 2600 6800 50  0001 C CNN
+	1    2600 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6650 2600 6550
+Wire Wire Line
+	2600 6950 2600 7050
+Wire Wire Line
+	2500 6800 2700 6800
+$Comp
+L Device:C C?
+U 1 1 5FC302DB
+P 3500 6800
+F 0 "C?" H 3500 6900 50  0000 L CNN
+F 1 "100N" H 3400 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 6650 50  0001 C CNN
+F 3 "~" H 3500 6800 50  0001 C CNN
+	1    3500 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6650 3500 6550
+Wire Wire Line
+	3500 6950 3500 7050
+Wire Wire Line
+	3400 6800 3600 6800
+$Comp
+L Device:C C?
+U 1 1 5FC302E8
+P 4400 6800
+F 0 "C?" H 4400 6900 50  0000 L CNN
+F 1 "100N" H 4300 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 6650 50  0001 C CNN
+F 3 "~" H 4400 6800 50  0001 C CNN
+	1    4400 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6650 4400 6550
+Wire Wire Line
+	4400 6950 4400 7050
+Connection ~ 3500 6550
+Connection ~ 3500 7050
+Connection ~ 2600 6550
+Connection ~ 2600 7050
+Connection ~ 1700 6550
+Connection ~ 1700 7050
+Wire Wire Line
+	4300 6800 4550 6800
+Wire Wire Line
+	1700 7050 1250 7050
+Wire Wire Line
+	1700 6550 1250 6550
+Wire Wire Line
+	2600 7050 2150 7050
+Wire Wire Line
+	2600 6550 2150 6550
+Wire Wire Line
+	3500 7050 3050 7050
+Wire Wire Line
+	3500 6550 3050 6550
+Wire Wire Line
+	4400 7050 3950 7050
+Wire Wire Line
+	4400 6550 3950 6550
+$Comp
+L william_led:WS2812B-MINI D?
+U 1 1 5FC30303
+P 1250 6800
+F 0 "D?" H 1644 6800 50  0000 L CNN
+F 1 "WS2812B-MINI" H 1300 6575 50  0001 L TNN
+F 2 "william_led:WS2812B_v3-MINI" H 1300 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 6425 50  0001 L TNN
+	1    1250 6800
+	1    0    0    1   
+$EndComp
+$Comp
+L william_led:WS2812B-MINI D?
+U 1 1 5FC3030D
+P 2150 6800
+F 0 "D?" H 2544 6800 50  0000 L CNN
+F 1 "WS2812B-MINI" H 2200 6575 50  0001 L TNN
+F 2 "william_led:WS2812B_v3-MINI" H 2200 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 6425 50  0001 L TNN
+	1    2150 6800
+	1    0    0    1   
+$EndComp
+$Comp
+L william_led:WS2812B-MINI D?
+U 1 1 5FC30317
+P 3050 6800
+F 0 "D?" H 3444 6800 50  0000 L CNN
+F 1 "WS2812B-MINI" H 3100 6575 50  0001 L TNN
+F 2 "william_led:WS2812B_v3-MINI" H 3100 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 6425 50  0001 L TNN
+	1    3050 6800
+	1    0    0    1   
+$EndComp
+$Comp
+L william_led:WS2812B-MINI D?
+U 1 1 5FC30321
+P 3950 6800
+F 0 "D?" H 4344 6800 50  0000 L CNN
+F 1 "WS2812B-MINI" H 4000 6575 50  0001 L TNN
+F 2 "william_led:WS2812B_v3-MINI" H 4000 6500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 6425 50  0001 L TNN
+	1    3950 6800
+	1    0    0    1   
+$EndComp
+Connection ~ 3950 6550
+Wire Wire Line
+	3950 6550 3500 6550
+Connection ~ 3950 7050
+Wire Wire Line
+	3950 7050 3500 7050
+Connection ~ 3050 6550
+Wire Wire Line
+	3050 6550 2600 6550
+Connection ~ 3050 7050
+Wire Wire Line
+	3050 7050 2600 7050
+Connection ~ 2150 6550
+Wire Wire Line
+	2150 6550 1700 6550
+Connection ~ 2150 7050
+Wire Wire Line
+	2150 7050 1700 7050
+Connection ~ 1250 6550
+Wire Wire Line
+	1250 6550 800  6550
+Connection ~ 1250 7050
+Wire Wire Line
+	1250 7050 800  7050
+Text HLabel 800  6550 0    50   Input ~ 0
+5V
+Text HLabel 800  7050 0    50   Output ~ 0
+GND
+Wire Wire Line
+	500  6200 500  6800
+Wire Wire Line
+	500  6800 900  6800
+Wire Wire Line
+	500  6200 900  6200
 $EndSCHEMATC
