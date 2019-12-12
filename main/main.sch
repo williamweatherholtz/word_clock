@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -61,7 +62,7 @@ $Sheet
 S 10000 3600 700  500 
 U 5DEECD42
 F0 "LEDs" 50
-F1 "led_array.sch" 50
+F1 "2812_mini_led_array.sch" 50
 F2 "5V" I L 10000 3700 50 
 F3 "DIN" I L 10000 3850 50 
 F4 "DOUT" O R 10700 3850 50 
@@ -120,7 +121,7 @@ L Device:C C4
 U 1 1 5F9F2505
 P 6250 1350
 F 0 "C4" H 6365 1396 50  0000 L CNN
-F 1 "10U" H 6365 1305 50  0000 L CNN
+F 1 "4U7" H 6365 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 1200 50  0001 C CNN
 F 3 "~" H 6250 1350 50  0001 C CNN
 	1    6250 1350
@@ -435,10 +436,10 @@ Wire Wire Line
 	4500 1200 5050 1200
 Wire Wire Line
 	4500 1500 5350 1500
-Text Notes 5850 1700 0    50   ~ 0
+Text Notes 5250 900  0    50   ~ 0
 LCSC pn:\nC141407
 $Comp
-L william_dc_ldo:LN6206P332MR-G U1
+L main-rescue:LN6206P332MR-G-william_dc_ldo U1
 U 1 1 5DF1CFB8
 P 5350 1250
 F 0 "U1" H 5350 1542 50  0000 C CNN
@@ -532,17 +533,6 @@ Wire Wire Line
 Connection ~ 8700 3850
 Text Label 9500 3850 1    50   ~ 0
 ~LED_DATA_OUT~_5V
-$Comp
-L Connector:USB_C_Receptacle J1
-U 1 1 5E1B7ADE
-P 1100 1850
-F 0 "J1" H 1207 3117 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 1207 3026 50  0000 C CNN
-F 2 "william_usb:C168688" H 1250 1850 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1850 50  0001 C CNN
-	1    1100 1850
-	1    0    0    -1  
-$EndComp
 Text Label 6100 4150 0    50   ~ 0
 LED_DATA_OUT_3V3
 Text Label 7600 4050 0    50   ~ 0
@@ -550,23 +540,23 @@ LED_DATA_OUT_3V3
 Wire Wire Line
 	7600 4050 8400 4050
 Wire Wire Line
-	1100 3500 1100 3450
-Connection ~ 1100 3500
+	1100 2400 1100 2350
+Connection ~ 1100 2400
 Wire Wire Line
-	800  3500 1100 3500
+	800  2400 1100 2400
 Wire Wire Line
-	800  3450 800  3500
+	800  2350 800  2400
 Wire Wire Line
-	1100 3550 1100 3500
+	1100 2450 1100 2400
 $Comp
 L power:GND #PWR04
 U 1 1 5F9ED8FF
-P 1100 3550
-F 0 "#PWR04" H 1100 3300 50  0001 C CNN
-F 1 "GND" H 1105 3377 50  0000 C CNN
-F 2 "" H 1100 3550 50  0001 C CNN
-F 3 "" H 1100 3550 50  0001 C CNN
-	1    1100 3550
+P 1100 2450
+F 0 "#PWR04" H 1100 2200 50  0001 C CNN
+F 1 "GND" H 1105 2277 50  0000 C CNN
+F 2 "" H 1100 2450 50  0001 C CNN
+F 3 "" H 1100 2450 50  0001 C CNN
+	1    1100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -583,17 +573,28 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E220D8A
-P 1400 3500
-F 0 "#FLG0102" H 1400 3575 50  0001 C CNN
-F 1 "PWR_FLAG" H 1400 3673 50  0000 C CNN
-F 2 "" H 1400 3500 50  0001 C CNN
-F 3 "~" H 1400 3500 50  0001 C CNN
-	1    1400 3500
+P 1400 2400
+F 0 "#FLG0102" H 1400 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 2573 50  0000 C CNN
+F 2 "" H 1400 2400 50  0001 C CNN
+F 3 "~" H 1400 2400 50  0001 C CNN
+	1    1400 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3500 1100 3500
+	1400 2400 1100 2400
 Wire Wire Line
 	2050 850  1800 850 
 Connection ~ 1800 850 
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5DF2CF3E
+P 1100 1450
+F 0 "J1" H 1207 2317 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1207 2226 50  0000 C CNN
+F 2 "william_usb:C168688" H 1250 1450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1450 50  0001 C CNN
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
