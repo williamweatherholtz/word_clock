@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="190.36171"
-     inkscape:cy="911.61474"
+     inkscape:zoom="5.6"
+     inkscape:cx="227.55183"
+     inkscape:cy="855.91663"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1058"
-     inkscape:window-x="2552"
-     inkscape:window-y="352"
+     inkscape:window-width="2560"
+     inkscape:window-height="1378"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -44,10 +44,23 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="nkg"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:0.35499998;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.82591355;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1457"
+       width="41.577381"
+       height="41.577381"
+       x="57.074398"
+       y="53.205349" />
+  </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -170,22 +183,86 @@
        xml:space="preserve"
        id="flowRoot6120"
        style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="scale(0.26458333)"><flowRegion
+       transform="matrix(0.25605643,0,0,0.25605643,-18.305233,5.6413105)"><flowRegion
          id="flowRegion6122"><rect
            id="rect6124"
            width="213.03572"
            height="182.5"
            x="161.96428"
            y="189.30536" /></flowRegion><flowPara
-         id="flowPara6126">ITLISASAMPM</flowPara><flowPara
-         id="flowPara6140">ACQUARTERDC</flowPara><flowPara
-         id="flowPara6173">TWENTYFIVEX</flowPara><flowPara
-         id="flowPara6175">HALFSTENFTO</flowPara><flowPara
-         id="flowPara6177">PASTERUNINE</flowPara><flowPara
-         id="flowPara6179">ONESIXTHREE</flowPara><flowPara
-         id="flowPara6181">FOURFIVETWO</flowPara><flowPara
-         id="flowPara6185">EIGHTELEVEN</flowPara><flowPara
-         id="flowPara6169">SEVENTWELVE</flowPara><flowPara
-         id="flowPara6189">TENSEO'CLOCK</flowPara><flowPara
-         id="flowPara6171" /></flowRoot>  </g>
+         id="flowPara6126"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">ITLISASAMPM</flowPara><flowPara
+         id="flowPara6140"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">ACQUARTERDC</flowPara><flowPara
+         id="flowPara6173"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">TWENTYFIVEX</flowPara><flowPara
+         id="flowPara6175"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">HALFSTENFTO</flowPara><flowPara
+         id="flowPara6177"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">PASTERUNINE</flowPara><flowPara
+         id="flowPara6179"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">ONESIXTHREE</flowPara><flowPara
+         id="flowPara6181"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">FOURFIVETWO</flowPara><flowPara
+         id="flowPara6185"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">EIGHTELEVEN</flowPara><flowPara
+         id="flowPara6169"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">SEVENTWELVE</flowPara><flowPara
+         id="flowPara6189"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal">TENSEO'CLOCK</flowPara><flowPara
+         id="flowPara6171"
+         style="-inkscape-font-specification:'Kalinga, Normal';font-family:Kalinga;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12.00006755px;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal" /></flowRoot>    <flowRoot
+       transform="matrix(0.25605643,0,0,0.25605643,62.401173,-27.564096)"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot925-0"
+       xml:space="preserve"><flowRegion
+         id="flowRegion901-1"><rect
+           y="189.30536"
+           x="161.96428"
+           height="182.5"
+           width="213.03572"
+           id="rect899-8" /></flowRegion><flowPara
+         id="flowPara903-4">ITLISASAMPM</flowPara><flowPara
+         id="flowPara905-0">ACQUARTERDC</flowPara><flowPara
+         id="flowPara907-5">TWENTYFIVEX</flowPara><flowPara
+         id="flowPara909-5">HALFSTENFTO</flowPara><flowPara
+         id="flowPara911-3">PASTERUNINE</flowPara><flowPara
+         id="flowPara913-6">ONESIXTHREE</flowPara><flowPara
+         id="flowPara915-6">FOURFIVETWO</flowPara><flowPara
+         id="flowPara917-0">EIGHTELEVEN</flowPara><flowPara
+         id="flowPara919-5">SEVENTWELVE</flowPara><flowPara
+         id="flowPara921-1">TENSEO'CLOCK</flowPara><flowPara
+         id="flowPara923-7" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6120-0"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.25605643,0,0,0.25605643,16.549751,4.9651997)"><flowRegion
+         id="flowRegion6122-5"><rect
+           id="rect6124-3"
+           width="213.03572"
+           height="182.5"
+           x="161.96428"
+           y="189.30536" /></flowRegion><flowPara
+         id="flowPara6126-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">ITLISASAMPM</flowPara><flowPara
+         id="flowPara6140-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">ACQUARTERDC</flowPara><flowPara
+         id="flowPara6173-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">TWENTYFIVEX</flowPara><flowPara
+         id="flowPara6175-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">HALFSTENFTO</flowPara><flowPara
+         id="flowPara6177-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">PASTERUNINE</flowPara><flowPara
+         id="flowPara6179-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">ONESIXTHREE</flowPara><flowPara
+         id="flowPara6181-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">FOURFIVETWO</flowPara><flowPara
+         id="flowPara6185-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">EIGHTELEVEN</flowPara><flowPara
+         id="flowPara6169-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">SEVENTWELVE</flowPara><flowPara
+         id="flowPara6189-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">TENSEO'CLOCK</flowPara><flowPara
+         id="flowPara6171-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00006771px;font-family:Kalinga;-inkscape-font-specification:'Kalinga, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRoot>  </g>
 </svg>

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:main-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -229,9 +228,9 @@ Connection ~ 8900 550
 Connection ~ 8900 1050
 Connection ~ 8000 550 
 Connection ~ 8000 1050
-Text HLabel 10800 1150 2    50   Input ~ 0
+Text HLabel 10800 1650 2    50   Input ~ 0
 5V
-Text HLabel 10800 1650 2    50   Output ~ 0
+Text HLabel 10800 1150 2    50   Output ~ 0
 GND
 $Comp
 L Device:C C101
@@ -649,9 +648,9 @@ Connection ~ 8900 1750
 Connection ~ 8900 2250
 Connection ~ 8000 1750
 Connection ~ 8000 2250
-Text HLabel 10800 2350 2    50   Input ~ 0
+Text HLabel 10800 2850 2    50   Input ~ 0
 5V
-Text HLabel 10800 2850 2    50   Output ~ 0
+Text HLabel 10800 2350 2    50   Output ~ 0
 GND
 $Comp
 L Device:C C103
@@ -1067,9 +1066,9 @@ Connection ~ 8900 2950
 Connection ~ 8900 3450
 Connection ~ 8000 2950
 Connection ~ 8000 3450
-Text HLabel 10800 3550 2    50   Input ~ 0
+Text HLabel 10800 4050 2    50   Input ~ 0
 5V
-Text HLabel 10800 4050 2    50   Output ~ 0
+Text HLabel 10800 3550 2    50   Output ~ 0
 GND
 $Comp
 L Device:C C105
@@ -1485,9 +1484,9 @@ Connection ~ 8900 4150
 Connection ~ 8900 4650
 Connection ~ 8000 4150
 Connection ~ 8000 4650
-Text HLabel 10800 4750 2    50   Input ~ 0
+Text HLabel 10800 5250 2    50   Input ~ 0
 5V
-Text HLabel 10800 5250 2    50   Output ~ 0
+Text HLabel 10800 4750 2    50   Output ~ 0
 GND
 $Comp
 L Device:C C107
@@ -1903,9 +1902,9 @@ Connection ~ 8900 5350
 Connection ~ 8900 5850
 Connection ~ 8000 5350
 Connection ~ 8000 5850
-Text HLabel 10800 5950 2    50   Input ~ 0
+Text HLabel 10800 6450 2    50   Input ~ 0
 5V
-Text HLabel 10800 6450 2    50   Output ~ 0
+Text HLabel 10800 5950 2    50   Output ~ 0
 GND
 $Comp
 L Device:C C109
@@ -2607,9 +2606,11 @@ Wire Wire Line
 Wire Wire Line
 	700  550  1250 550 
 $Comp
-L william_led:WS2812B-MINI D1
+L main-rescue:WS2812B-MINI-william_led D1
 U 1 1 5F19DA69
 P 1250 800
+AR Path="/5F19DA69" Ref="D1"  Part="1" 
+AR Path="/5DEECD42/5F19DA69" Ref="D1"  Part="1" 
 F 0 "D1" H 1644 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 500 50  0001 L TNN
@@ -2618,9 +2619,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D11
+L main-rescue:WS2812B-MINI-william_led D11
 U 1 1 5F2032EA
 P 2150 800
+AR Path="/5F2032EA" Ref="D11"  Part="1" 
+AR Path="/5DEECD42/5F2032EA" Ref="D11"  Part="1" 
 F 0 "D11" H 2544 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 500 50  0001 L TNN
@@ -2629,9 +2632,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D21
+L main-rescue:WS2812B-MINI-william_led D21
 U 1 1 5F331652
 P 3050 800
+AR Path="/5F331652" Ref="D21"  Part="1" 
+AR Path="/5DEECD42/5F331652" Ref="D21"  Part="1" 
 F 0 "D21" H 3444 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 500 50  0001 L TNN
@@ -2640,9 +2645,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D31
+L main-rescue:WS2812B-MINI-william_led D31
 U 1 1 5F33165C
 P 3950 800
+AR Path="/5F33165C" Ref="D31"  Part="1" 
+AR Path="/5DEECD42/5F33165C" Ref="D31"  Part="1" 
 F 0 "D31" H 4344 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 500 50  0001 L TNN
@@ -2651,9 +2658,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D41
+L main-rescue:WS2812B-MINI-william_led D41
 U 1 1 5F395A3F
 P 4850 800
+AR Path="/5F395A3F" Ref="D41"  Part="1" 
+AR Path="/5DEECD42/5F395A3F" Ref="D41"  Part="1" 
 F 0 "D41" H 5244 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 500 50  0001 L TNN
@@ -2662,9 +2671,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D51
+L main-rescue:WS2812B-MINI-william_led D51
 U 1 1 5F395A49
 P 5750 800
+AR Path="/5F395A49" Ref="D51"  Part="1" 
+AR Path="/5DEECD42/5F395A49" Ref="D51"  Part="1" 
 F 0 "D51" H 6144 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 500 50  0001 L TNN
@@ -2673,9 +2684,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D61
+L main-rescue:WS2812B-MINI-william_led D61
 U 1 1 5F395A53
 P 6650 800
+AR Path="/5F395A53" Ref="D61"  Part="1" 
+AR Path="/5DEECD42/5F395A53" Ref="D61"  Part="1" 
 F 0 "D61" H 7044 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 500 50  0001 L TNN
@@ -2684,9 +2697,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D71
+L main-rescue:WS2812B-MINI-william_led D71
 U 1 1 5F395A5D
 P 7550 800
+AR Path="/5F395A5D" Ref="D71"  Part="1" 
+AR Path="/5DEECD42/5F395A5D" Ref="D71"  Part="1" 
 F 0 "D71" H 7944 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 500 50  0001 L TNN
@@ -2695,9 +2710,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D81
+L main-rescue:WS2812B-MINI-william_led D81
 U 1 1 5F3FC3F8
 P 8450 800
+AR Path="/5F3FC3F8" Ref="D81"  Part="1" 
+AR Path="/5DEECD42/5F3FC3F8" Ref="D81"  Part="1" 
 F 0 "D81" H 8844 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 500 50  0001 L TNN
@@ -2706,9 +2723,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D91
+L main-rescue:WS2812B-MINI-william_led D91
 U 1 1 5F3FC402
 P 9350 800
+AR Path="/5F3FC402" Ref="D91"  Part="1" 
+AR Path="/5DEECD42/5F3FC402" Ref="D91"  Part="1" 
 F 0 "D91" H 9744 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 500 50  0001 L TNN
@@ -2717,9 +2736,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 425 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D101
+L main-rescue:WS2812B-MINI-william_led D101
 U 1 1 5F3FC40C
 P 10250 800
+AR Path="/5F3FC40C" Ref="D101"  Part="1" 
+AR Path="/5DEECD42/5F3FC40C" Ref="D101"  Part="1" 
 F 0 "D101" H 10644 800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 500 50  0001 L TNN
@@ -2728,9 +2749,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 425 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D102
+L main-rescue:WS2812B-MINI-william_led D102
 U 1 1 5F53E2E2
 P 10250 1400
+AR Path="/5F53E2E2" Ref="D102"  Part="1" 
+AR Path="/5DEECD42/5F53E2E2" Ref="D102"  Part="1" 
 F 0 "D102" H 10644 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 1100 50  0001 L TNN
@@ -2739,9 +2762,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 1025 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D92
+L main-rescue:WS2812B-MINI-william_led D92
 U 1 1 5F53E2EC
 P 9350 1400
+AR Path="/5F53E2EC" Ref="D92"  Part="1" 
+AR Path="/5DEECD42/5F53E2EC" Ref="D92"  Part="1" 
 F 0 "D92" H 9744 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 1100 50  0001 L TNN
@@ -2750,9 +2775,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D82
+L main-rescue:WS2812B-MINI-william_led D82
 U 1 1 5F53E2F6
 P 8450 1400
+AR Path="/5F53E2F6" Ref="D82"  Part="1" 
+AR Path="/5DEECD42/5F53E2F6" Ref="D82"  Part="1" 
 F 0 "D82" H 8844 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 1100 50  0001 L TNN
@@ -2761,9 +2788,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D72
+L main-rescue:WS2812B-MINI-william_led D72
 U 1 1 5F53E300
 P 7550 1400
+AR Path="/5F53E300" Ref="D72"  Part="1" 
+AR Path="/5DEECD42/5F53E300" Ref="D72"  Part="1" 
 F 0 "D72" H 7944 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 1100 50  0001 L TNN
@@ -2772,9 +2801,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D62
+L main-rescue:WS2812B-MINI-william_led D62
 U 1 1 5F53E30A
 P 6650 1400
+AR Path="/5F53E30A" Ref="D62"  Part="1" 
+AR Path="/5DEECD42/5F53E30A" Ref="D62"  Part="1" 
 F 0 "D62" H 7044 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 1100 50  0001 L TNN
@@ -2783,9 +2814,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D52
+L main-rescue:WS2812B-MINI-william_led D52
 U 1 1 5F53E314
 P 5750 1400
+AR Path="/5F53E314" Ref="D52"  Part="1" 
+AR Path="/5DEECD42/5F53E314" Ref="D52"  Part="1" 
 F 0 "D52" H 6144 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 1100 50  0001 L TNN
@@ -2794,9 +2827,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D42
+L main-rescue:WS2812B-MINI-william_led D42
 U 1 1 5F53E31E
 P 4850 1400
+AR Path="/5F53E31E" Ref="D42"  Part="1" 
+AR Path="/5DEECD42/5F53E31E" Ref="D42"  Part="1" 
 F 0 "D42" H 5244 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 1100 50  0001 L TNN
@@ -2805,9 +2840,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D32
+L main-rescue:WS2812B-MINI-william_led D32
 U 1 1 5F53E328
 P 3950 1400
+AR Path="/5F53E328" Ref="D32"  Part="1" 
+AR Path="/5DEECD42/5F53E328" Ref="D32"  Part="1" 
 F 0 "D32" H 4344 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 1100 50  0001 L TNN
@@ -2816,9 +2853,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D22
+L main-rescue:WS2812B-MINI-william_led D22
 U 1 1 5F53E332
 P 3050 1400
+AR Path="/5F53E332" Ref="D22"  Part="1" 
+AR Path="/5DEECD42/5F53E332" Ref="D22"  Part="1" 
 F 0 "D22" H 3444 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 1100 50  0001 L TNN
@@ -2827,9 +2866,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D12
+L main-rescue:WS2812B-MINI-william_led D12
 U 1 1 5F53E33C
 P 2150 1400
+AR Path="/5F53E33C" Ref="D12"  Part="1" 
+AR Path="/5DEECD42/5F53E33C" Ref="D12"  Part="1" 
 F 0 "D12" H 2544 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 1100 50  0001 L TNN
@@ -2838,9 +2879,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D2
+L main-rescue:WS2812B-MINI-william_led D2
 U 1 1 5F53E346
 P 1250 1400
+AR Path="/5F53E346" Ref="D2"  Part="1" 
+AR Path="/5DEECD42/5F53E346" Ref="D2"  Part="1" 
 F 0 "D2" H 1644 1400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 1175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 1100 50  0001 L TNN
@@ -2849,9 +2892,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 1025 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D3
+L main-rescue:WS2812B-MINI-william_led D3
 U 1 1 5F5B487F
 P 1250 2000
+AR Path="/5F5B487F" Ref="D3"  Part="1" 
+AR Path="/5DEECD42/5F5B487F" Ref="D3"  Part="1" 
 F 0 "D3" H 1644 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 1700 50  0001 L TNN
@@ -2860,9 +2905,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D13
+L main-rescue:WS2812B-MINI-william_led D13
 U 1 1 5F5B4889
 P 2150 2000
+AR Path="/5F5B4889" Ref="D13"  Part="1" 
+AR Path="/5DEECD42/5F5B4889" Ref="D13"  Part="1" 
 F 0 "D13" H 2544 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 1700 50  0001 L TNN
@@ -2871,9 +2918,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D23
+L main-rescue:WS2812B-MINI-william_led D23
 U 1 1 5F5B4893
 P 3050 2000
+AR Path="/5F5B4893" Ref="D23"  Part="1" 
+AR Path="/5DEECD42/5F5B4893" Ref="D23"  Part="1" 
 F 0 "D23" H 3444 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 1700 50  0001 L TNN
@@ -2882,9 +2931,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D33
+L main-rescue:WS2812B-MINI-william_led D33
 U 1 1 5F5B489D
 P 3950 2000
+AR Path="/5F5B489D" Ref="D33"  Part="1" 
+AR Path="/5DEECD42/5F5B489D" Ref="D33"  Part="1" 
 F 0 "D33" H 4344 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 1700 50  0001 L TNN
@@ -2893,9 +2944,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D43
+L main-rescue:WS2812B-MINI-william_led D43
 U 1 1 5F5B48A7
 P 4850 2000
+AR Path="/5F5B48A7" Ref="D43"  Part="1" 
+AR Path="/5DEECD42/5F5B48A7" Ref="D43"  Part="1" 
 F 0 "D43" H 5244 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 1700 50  0001 L TNN
@@ -2904,9 +2957,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D53
+L main-rescue:WS2812B-MINI-william_led D53
 U 1 1 5F5B48B1
 P 5750 2000
+AR Path="/5F5B48B1" Ref="D53"  Part="1" 
+AR Path="/5DEECD42/5F5B48B1" Ref="D53"  Part="1" 
 F 0 "D53" H 6144 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 1700 50  0001 L TNN
@@ -2915,9 +2970,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D63
+L main-rescue:WS2812B-MINI-william_led D63
 U 1 1 5F5B48BB
 P 6650 2000
+AR Path="/5F5B48BB" Ref="D63"  Part="1" 
+AR Path="/5DEECD42/5F5B48BB" Ref="D63"  Part="1" 
 F 0 "D63" H 7044 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 1700 50  0001 L TNN
@@ -2926,9 +2983,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D73
+L main-rescue:WS2812B-MINI-william_led D73
 U 1 1 5F5B48C5
 P 7550 2000
+AR Path="/5F5B48C5" Ref="D73"  Part="1" 
+AR Path="/5DEECD42/5F5B48C5" Ref="D73"  Part="1" 
 F 0 "D73" H 7944 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 1700 50  0001 L TNN
@@ -2937,9 +2996,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D83
+L main-rescue:WS2812B-MINI-william_led D83
 U 1 1 5F5B48CF
 P 8450 2000
+AR Path="/5F5B48CF" Ref="D83"  Part="1" 
+AR Path="/5DEECD42/5F5B48CF" Ref="D83"  Part="1" 
 F 0 "D83" H 8844 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 1700 50  0001 L TNN
@@ -2948,9 +3009,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D93
+L main-rescue:WS2812B-MINI-william_led D93
 U 1 1 5F5B48D9
 P 9350 2000
+AR Path="/5F5B48D9" Ref="D93"  Part="1" 
+AR Path="/5DEECD42/5F5B48D9" Ref="D93"  Part="1" 
 F 0 "D93" H 9744 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 1700 50  0001 L TNN
@@ -2959,9 +3022,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 1625 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D103
+L main-rescue:WS2812B-MINI-william_led D103
 U 1 1 5F5B48E3
 P 10250 2000
+AR Path="/5F5B48E3" Ref="D103"  Part="1" 
+AR Path="/5DEECD42/5F5B48E3" Ref="D103"  Part="1" 
 F 0 "D103" H 10644 2000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 1775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 1700 50  0001 L TNN
@@ -2970,9 +3035,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 1625 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D104
+L main-rescue:WS2812B-MINI-william_led D104
 U 1 1 5F5B48ED
 P 10250 2600
+AR Path="/5F5B48ED" Ref="D104"  Part="1" 
+AR Path="/5DEECD42/5F5B48ED" Ref="D104"  Part="1" 
 F 0 "D104" H 10644 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 2300 50  0001 L TNN
@@ -2981,9 +3048,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 2225 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D94
+L main-rescue:WS2812B-MINI-william_led D94
 U 1 1 5F5B48F7
 P 9350 2600
+AR Path="/5F5B48F7" Ref="D94"  Part="1" 
+AR Path="/5DEECD42/5F5B48F7" Ref="D94"  Part="1" 
 F 0 "D94" H 9744 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 2300 50  0001 L TNN
@@ -2992,9 +3061,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D84
+L main-rescue:WS2812B-MINI-william_led D84
 U 1 1 5F5B4901
 P 8450 2600
+AR Path="/5F5B4901" Ref="D84"  Part="1" 
+AR Path="/5DEECD42/5F5B4901" Ref="D84"  Part="1" 
 F 0 "D84" H 8844 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 2300 50  0001 L TNN
@@ -3003,9 +3074,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D74
+L main-rescue:WS2812B-MINI-william_led D74
 U 1 1 5F5B490B
 P 7550 2600
+AR Path="/5F5B490B" Ref="D74"  Part="1" 
+AR Path="/5DEECD42/5F5B490B" Ref="D74"  Part="1" 
 F 0 "D74" H 7944 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 2300 50  0001 L TNN
@@ -3014,9 +3087,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D64
+L main-rescue:WS2812B-MINI-william_led D64
 U 1 1 5F5B4915
 P 6650 2600
+AR Path="/5F5B4915" Ref="D64"  Part="1" 
+AR Path="/5DEECD42/5F5B4915" Ref="D64"  Part="1" 
 F 0 "D64" H 7044 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 2300 50  0001 L TNN
@@ -3025,9 +3100,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D54
+L main-rescue:WS2812B-MINI-william_led D54
 U 1 1 5F5B491F
 P 5750 2600
+AR Path="/5F5B491F" Ref="D54"  Part="1" 
+AR Path="/5DEECD42/5F5B491F" Ref="D54"  Part="1" 
 F 0 "D54" H 6144 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 2300 50  0001 L TNN
@@ -3036,9 +3113,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D44
+L main-rescue:WS2812B-MINI-william_led D44
 U 1 1 5F5B4929
 P 4850 2600
+AR Path="/5F5B4929" Ref="D44"  Part="1" 
+AR Path="/5DEECD42/5F5B4929" Ref="D44"  Part="1" 
 F 0 "D44" H 5244 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 2300 50  0001 L TNN
@@ -3047,9 +3126,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D34
+L main-rescue:WS2812B-MINI-william_led D34
 U 1 1 5F5B4933
 P 3950 2600
+AR Path="/5F5B4933" Ref="D34"  Part="1" 
+AR Path="/5DEECD42/5F5B4933" Ref="D34"  Part="1" 
 F 0 "D34" H 4344 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 2300 50  0001 L TNN
@@ -3058,9 +3139,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D24
+L main-rescue:WS2812B-MINI-william_led D24
 U 1 1 5F5B493D
 P 3050 2600
+AR Path="/5F5B493D" Ref="D24"  Part="1" 
+AR Path="/5DEECD42/5F5B493D" Ref="D24"  Part="1" 
 F 0 "D24" H 3444 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 2300 50  0001 L TNN
@@ -3069,9 +3152,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D14
+L main-rescue:WS2812B-MINI-william_led D14
 U 1 1 5F5B4947
 P 2150 2600
+AR Path="/5F5B4947" Ref="D14"  Part="1" 
+AR Path="/5DEECD42/5F5B4947" Ref="D14"  Part="1" 
 F 0 "D14" H 2544 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 2300 50  0001 L TNN
@@ -3080,9 +3165,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D4
+L main-rescue:WS2812B-MINI-william_led D4
 U 1 1 5F5B4951
 P 1250 2600
+AR Path="/5F5B4951" Ref="D4"  Part="1" 
+AR Path="/5DEECD42/5F5B4951" Ref="D4"  Part="1" 
 F 0 "D4" H 1644 2600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 2375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 2300 50  0001 L TNN
@@ -3091,9 +3178,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 2225 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D5
+L main-rescue:WS2812B-MINI-william_led D5
 U 1 1 5F622076
 P 1250 3200
+AR Path="/5F622076" Ref="D5"  Part="1" 
+AR Path="/5DEECD42/5F622076" Ref="D5"  Part="1" 
 F 0 "D5" H 1644 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 2900 50  0001 L TNN
@@ -3102,9 +3191,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D15
+L main-rescue:WS2812B-MINI-william_led D15
 U 1 1 5F622080
 P 2150 3200
+AR Path="/5F622080" Ref="D15"  Part="1" 
+AR Path="/5DEECD42/5F622080" Ref="D15"  Part="1" 
 F 0 "D15" H 2544 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 2900 50  0001 L TNN
@@ -3113,9 +3204,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D25
+L main-rescue:WS2812B-MINI-william_led D25
 U 1 1 5F62208A
 P 3050 3200
+AR Path="/5F62208A" Ref="D25"  Part="1" 
+AR Path="/5DEECD42/5F62208A" Ref="D25"  Part="1" 
 F 0 "D25" H 3444 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 2900 50  0001 L TNN
@@ -3124,9 +3217,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D35
+L main-rescue:WS2812B-MINI-william_led D35
 U 1 1 5F622094
 P 3950 3200
+AR Path="/5F622094" Ref="D35"  Part="1" 
+AR Path="/5DEECD42/5F622094" Ref="D35"  Part="1" 
 F 0 "D35" H 4344 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 2900 50  0001 L TNN
@@ -3135,9 +3230,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D45
+L main-rescue:WS2812B-MINI-william_led D45
 U 1 1 5F62209E
 P 4850 3200
+AR Path="/5F62209E" Ref="D45"  Part="1" 
+AR Path="/5DEECD42/5F62209E" Ref="D45"  Part="1" 
 F 0 "D45" H 5244 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 2900 50  0001 L TNN
@@ -3146,9 +3243,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D55
+L main-rescue:WS2812B-MINI-william_led D55
 U 1 1 5F6220A8
 P 5750 3200
+AR Path="/5F6220A8" Ref="D55"  Part="1" 
+AR Path="/5DEECD42/5F6220A8" Ref="D55"  Part="1" 
 F 0 "D55" H 6144 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 2900 50  0001 L TNN
@@ -3157,9 +3256,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D65
+L main-rescue:WS2812B-MINI-william_led D65
 U 1 1 5F6220B2
 P 6650 3200
+AR Path="/5F6220B2" Ref="D65"  Part="1" 
+AR Path="/5DEECD42/5F6220B2" Ref="D65"  Part="1" 
 F 0 "D65" H 7044 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 2900 50  0001 L TNN
@@ -3168,9 +3269,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D75
+L main-rescue:WS2812B-MINI-william_led D75
 U 1 1 5F6220BC
 P 7550 3200
+AR Path="/5F6220BC" Ref="D75"  Part="1" 
+AR Path="/5DEECD42/5F6220BC" Ref="D75"  Part="1" 
 F 0 "D75" H 7944 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 2900 50  0001 L TNN
@@ -3179,9 +3282,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D85
+L main-rescue:WS2812B-MINI-william_led D85
 U 1 1 5F6220C6
 P 8450 3200
+AR Path="/5F6220C6" Ref="D85"  Part="1" 
+AR Path="/5DEECD42/5F6220C6" Ref="D85"  Part="1" 
 F 0 "D85" H 8844 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 2900 50  0001 L TNN
@@ -3190,9 +3295,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D95
+L main-rescue:WS2812B-MINI-william_led D95
 U 1 1 5F6220D0
 P 9350 3200
+AR Path="/5F6220D0" Ref="D95"  Part="1" 
+AR Path="/5DEECD42/5F6220D0" Ref="D95"  Part="1" 
 F 0 "D95" H 9744 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 2900 50  0001 L TNN
@@ -3201,9 +3308,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 2825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D105
+L main-rescue:WS2812B-MINI-william_led D105
 U 1 1 5F6220DA
 P 10250 3200
+AR Path="/5F6220DA" Ref="D105"  Part="1" 
+AR Path="/5DEECD42/5F6220DA" Ref="D105"  Part="1" 
 F 0 "D105" H 10644 3200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 2975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 2900 50  0001 L TNN
@@ -3212,9 +3321,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 2825 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D106
+L main-rescue:WS2812B-MINI-william_led D106
 U 1 1 5F6220E4
 P 10250 3800
+AR Path="/5F6220E4" Ref="D106"  Part="1" 
+AR Path="/5DEECD42/5F6220E4" Ref="D106"  Part="1" 
 F 0 "D106" H 10644 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 3500 50  0001 L TNN
@@ -3223,9 +3334,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 3425 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D96
+L main-rescue:WS2812B-MINI-william_led D96
 U 1 1 5F6220EE
 P 9350 3800
+AR Path="/5F6220EE" Ref="D96"  Part="1" 
+AR Path="/5DEECD42/5F6220EE" Ref="D96"  Part="1" 
 F 0 "D96" H 9744 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 3500 50  0001 L TNN
@@ -3234,9 +3347,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D86
+L main-rescue:WS2812B-MINI-william_led D86
 U 1 1 5F6220F8
 P 8450 3800
+AR Path="/5F6220F8" Ref="D86"  Part="1" 
+AR Path="/5DEECD42/5F6220F8" Ref="D86"  Part="1" 
 F 0 "D86" H 8844 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 3500 50  0001 L TNN
@@ -3245,9 +3360,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D76
+L main-rescue:WS2812B-MINI-william_led D76
 U 1 1 5F622102
 P 7550 3800
+AR Path="/5F622102" Ref="D76"  Part="1" 
+AR Path="/5DEECD42/5F622102" Ref="D76"  Part="1" 
 F 0 "D76" H 7944 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 3500 50  0001 L TNN
@@ -3256,9 +3373,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D66
+L main-rescue:WS2812B-MINI-william_led D66
 U 1 1 5F62210C
 P 6650 3800
+AR Path="/5F62210C" Ref="D66"  Part="1" 
+AR Path="/5DEECD42/5F62210C" Ref="D66"  Part="1" 
 F 0 "D66" H 7044 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 3500 50  0001 L TNN
@@ -3267,9 +3386,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D56
+L main-rescue:WS2812B-MINI-william_led D56
 U 1 1 5F622116
 P 5750 3800
+AR Path="/5F622116" Ref="D56"  Part="1" 
+AR Path="/5DEECD42/5F622116" Ref="D56"  Part="1" 
 F 0 "D56" H 6144 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 3500 50  0001 L TNN
@@ -3278,9 +3399,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D46
+L main-rescue:WS2812B-MINI-william_led D46
 U 1 1 5F622120
 P 4850 3800
+AR Path="/5F622120" Ref="D46"  Part="1" 
+AR Path="/5DEECD42/5F622120" Ref="D46"  Part="1" 
 F 0 "D46" H 5244 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 3500 50  0001 L TNN
@@ -3289,9 +3412,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D36
+L main-rescue:WS2812B-MINI-william_led D36
 U 1 1 5F62212A
 P 3950 3800
+AR Path="/5F62212A" Ref="D36"  Part="1" 
+AR Path="/5DEECD42/5F62212A" Ref="D36"  Part="1" 
 F 0 "D36" H 4344 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 3500 50  0001 L TNN
@@ -3300,9 +3425,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D26
+L main-rescue:WS2812B-MINI-william_led D26
 U 1 1 5F622134
 P 3050 3800
+AR Path="/5F622134" Ref="D26"  Part="1" 
+AR Path="/5DEECD42/5F622134" Ref="D26"  Part="1" 
 F 0 "D26" H 3444 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 3500 50  0001 L TNN
@@ -3311,9 +3438,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D16
+L main-rescue:WS2812B-MINI-william_led D16
 U 1 1 5F62213E
 P 2150 3800
+AR Path="/5F62213E" Ref="D16"  Part="1" 
+AR Path="/5DEECD42/5F62213E" Ref="D16"  Part="1" 
 F 0 "D16" H 2544 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 3500 50  0001 L TNN
@@ -3322,9 +3451,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D6
+L main-rescue:WS2812B-MINI-william_led D6
 U 1 1 5F622148
 P 1250 3800
+AR Path="/5F622148" Ref="D6"  Part="1" 
+AR Path="/5DEECD42/5F622148" Ref="D6"  Part="1" 
 F 0 "D6" H 1644 3800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 3575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 3500 50  0001 L TNN
@@ -3333,9 +3464,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 3425 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D7
+L main-rescue:WS2812B-MINI-william_led D7
 U 1 1 5F622152
 P 1250 4400
+AR Path="/5F622152" Ref="D7"  Part="1" 
+AR Path="/5DEECD42/5F622152" Ref="D7"  Part="1" 
 F 0 "D7" H 1644 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 4100 50  0001 L TNN
@@ -3344,9 +3477,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D17
+L main-rescue:WS2812B-MINI-william_led D17
 U 1 1 5F62215C
 P 2150 4400
+AR Path="/5F62215C" Ref="D17"  Part="1" 
+AR Path="/5DEECD42/5F62215C" Ref="D17"  Part="1" 
 F 0 "D17" H 2544 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 4100 50  0001 L TNN
@@ -3355,9 +3490,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D27
+L main-rescue:WS2812B-MINI-william_led D27
 U 1 1 5F622166
 P 3050 4400
+AR Path="/5F622166" Ref="D27"  Part="1" 
+AR Path="/5DEECD42/5F622166" Ref="D27"  Part="1" 
 F 0 "D27" H 3444 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 4100 50  0001 L TNN
@@ -3366,9 +3503,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D37
+L main-rescue:WS2812B-MINI-william_led D37
 U 1 1 5F622170
 P 3950 4400
+AR Path="/5F622170" Ref="D37"  Part="1" 
+AR Path="/5DEECD42/5F622170" Ref="D37"  Part="1" 
 F 0 "D37" H 4344 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 4100 50  0001 L TNN
@@ -3377,9 +3516,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D47
+L main-rescue:WS2812B-MINI-william_led D47
 U 1 1 5F62217A
 P 4850 4400
+AR Path="/5F62217A" Ref="D47"  Part="1" 
+AR Path="/5DEECD42/5F62217A" Ref="D47"  Part="1" 
 F 0 "D47" H 5244 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 4100 50  0001 L TNN
@@ -3388,9 +3529,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D57
+L main-rescue:WS2812B-MINI-william_led D57
 U 1 1 5F622184
 P 5750 4400
+AR Path="/5F622184" Ref="D57"  Part="1" 
+AR Path="/5DEECD42/5F622184" Ref="D57"  Part="1" 
 F 0 "D57" H 6144 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 4100 50  0001 L TNN
@@ -3399,9 +3542,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D67
+L main-rescue:WS2812B-MINI-william_led D67
 U 1 1 5F62218E
 P 6650 4400
+AR Path="/5F62218E" Ref="D67"  Part="1" 
+AR Path="/5DEECD42/5F62218E" Ref="D67"  Part="1" 
 F 0 "D67" H 7044 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 4100 50  0001 L TNN
@@ -3410,9 +3555,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D77
+L main-rescue:WS2812B-MINI-william_led D77
 U 1 1 5F622198
 P 7550 4400
+AR Path="/5F622198" Ref="D77"  Part="1" 
+AR Path="/5DEECD42/5F622198" Ref="D77"  Part="1" 
 F 0 "D77" H 7944 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 4100 50  0001 L TNN
@@ -3421,9 +3568,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D87
+L main-rescue:WS2812B-MINI-william_led D87
 U 1 1 5F6221A2
 P 8450 4400
+AR Path="/5F6221A2" Ref="D87"  Part="1" 
+AR Path="/5DEECD42/5F6221A2" Ref="D87"  Part="1" 
 F 0 "D87" H 8844 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 4100 50  0001 L TNN
@@ -3432,9 +3581,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D97
+L main-rescue:WS2812B-MINI-william_led D97
 U 1 1 5F6221AC
 P 9350 4400
+AR Path="/5F6221AC" Ref="D97"  Part="1" 
+AR Path="/5DEECD42/5F6221AC" Ref="D97"  Part="1" 
 F 0 "D97" H 9744 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 4100 50  0001 L TNN
@@ -3443,9 +3594,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 4025 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D107
+L main-rescue:WS2812B-MINI-william_led D107
 U 1 1 5F6221B6
 P 10250 4400
+AR Path="/5F6221B6" Ref="D107"  Part="1" 
+AR Path="/5DEECD42/5F6221B6" Ref="D107"  Part="1" 
 F 0 "D107" H 10644 4400 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 4175 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 4100 50  0001 L TNN
@@ -3454,9 +3607,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 4025 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D108
+L main-rescue:WS2812B-MINI-william_led D108
 U 1 1 5F6221C0
 P 10250 5000
+AR Path="/5F6221C0" Ref="D108"  Part="1" 
+AR Path="/5DEECD42/5F6221C0" Ref="D108"  Part="1" 
 F 0 "D108" H 10644 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 4700 50  0001 L TNN
@@ -3465,9 +3620,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 4625 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D98
+L main-rescue:WS2812B-MINI-william_led D98
 U 1 1 5F6221CA
 P 9350 5000
+AR Path="/5F6221CA" Ref="D98"  Part="1" 
+AR Path="/5DEECD42/5F6221CA" Ref="D98"  Part="1" 
 F 0 "D98" H 9744 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 4700 50  0001 L TNN
@@ -3476,9 +3633,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D88
+L main-rescue:WS2812B-MINI-william_led D88
 U 1 1 5F6221D4
 P 8450 5000
+AR Path="/5F6221D4" Ref="D88"  Part="1" 
+AR Path="/5DEECD42/5F6221D4" Ref="D88"  Part="1" 
 F 0 "D88" H 8844 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 4700 50  0001 L TNN
@@ -3487,9 +3646,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D78
+L main-rescue:WS2812B-MINI-william_led D78
 U 1 1 5F6221DE
 P 7550 5000
+AR Path="/5F6221DE" Ref="D78"  Part="1" 
+AR Path="/5DEECD42/5F6221DE" Ref="D78"  Part="1" 
 F 0 "D78" H 7944 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 4700 50  0001 L TNN
@@ -3498,9 +3659,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D68
+L main-rescue:WS2812B-MINI-william_led D68
 U 1 1 5F6221E8
 P 6650 5000
+AR Path="/5F6221E8" Ref="D68"  Part="1" 
+AR Path="/5DEECD42/5F6221E8" Ref="D68"  Part="1" 
 F 0 "D68" H 7044 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 4700 50  0001 L TNN
@@ -3509,9 +3672,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D58
+L main-rescue:WS2812B-MINI-william_led D58
 U 1 1 5F6221F2
 P 5750 5000
+AR Path="/5F6221F2" Ref="D58"  Part="1" 
+AR Path="/5DEECD42/5F6221F2" Ref="D58"  Part="1" 
 F 0 "D58" H 6144 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 4700 50  0001 L TNN
@@ -3520,9 +3685,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D48
+L main-rescue:WS2812B-MINI-william_led D48
 U 1 1 5F6221FC
 P 4850 5000
+AR Path="/5F6221FC" Ref="D48"  Part="1" 
+AR Path="/5DEECD42/5F6221FC" Ref="D48"  Part="1" 
 F 0 "D48" H 5244 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 4700 50  0001 L TNN
@@ -3531,9 +3698,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D38
+L main-rescue:WS2812B-MINI-william_led D38
 U 1 1 5F622206
 P 3950 5000
+AR Path="/5F622206" Ref="D38"  Part="1" 
+AR Path="/5DEECD42/5F622206" Ref="D38"  Part="1" 
 F 0 "D38" H 4344 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 4700 50  0001 L TNN
@@ -3542,9 +3711,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D28
+L main-rescue:WS2812B-MINI-william_led D28
 U 1 1 5F622210
 P 3050 5000
+AR Path="/5F622210" Ref="D28"  Part="1" 
+AR Path="/5DEECD42/5F622210" Ref="D28"  Part="1" 
 F 0 "D28" H 3444 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 4700 50  0001 L TNN
@@ -3553,9 +3724,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D18
+L main-rescue:WS2812B-MINI-william_led D18
 U 1 1 5F62221A
 P 2150 5000
+AR Path="/5F62221A" Ref="D18"  Part="1" 
+AR Path="/5DEECD42/5F62221A" Ref="D18"  Part="1" 
 F 0 "D18" H 2544 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 4700 50  0001 L TNN
@@ -3564,9 +3737,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D8
+L main-rescue:WS2812B-MINI-william_led D8
 U 1 1 5F622224
 P 1250 5000
+AR Path="/5F622224" Ref="D8"  Part="1" 
+AR Path="/5DEECD42/5F622224" Ref="D8"  Part="1" 
 F 0 "D8" H 1644 5000 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 4775 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 4700 50  0001 L TNN
@@ -3575,9 +3750,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 4625 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D9
+L main-rescue:WS2812B-MINI-william_led D9
 U 1 1 5F6A16FB
 P 1250 5600
+AR Path="/5F6A16FB" Ref="D9"  Part="1" 
+AR Path="/5DEECD42/5F6A16FB" Ref="D9"  Part="1" 
 F 0 "D9" H 1644 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 5300 50  0001 L TNN
@@ -3586,9 +3763,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D19
+L main-rescue:WS2812B-MINI-william_led D19
 U 1 1 5F6A1705
 P 2150 5600
+AR Path="/5F6A1705" Ref="D19"  Part="1" 
+AR Path="/5DEECD42/5F6A1705" Ref="D19"  Part="1" 
 F 0 "D19" H 2544 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 5300 50  0001 L TNN
@@ -3597,9 +3776,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D29
+L main-rescue:WS2812B-MINI-william_led D29
 U 1 1 5F6A170F
 P 3050 5600
+AR Path="/5F6A170F" Ref="D29"  Part="1" 
+AR Path="/5DEECD42/5F6A170F" Ref="D29"  Part="1" 
 F 0 "D29" H 3444 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 5300 50  0001 L TNN
@@ -3608,9 +3789,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D39
+L main-rescue:WS2812B-MINI-william_led D39
 U 1 1 5F6A1719
 P 3950 5600
+AR Path="/5F6A1719" Ref="D39"  Part="1" 
+AR Path="/5DEECD42/5F6A1719" Ref="D39"  Part="1" 
 F 0 "D39" H 4344 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 5300 50  0001 L TNN
@@ -3619,9 +3802,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D49
+L main-rescue:WS2812B-MINI-william_led D49
 U 1 1 5F6A1723
 P 4850 5600
+AR Path="/5F6A1723" Ref="D49"  Part="1" 
+AR Path="/5DEECD42/5F6A1723" Ref="D49"  Part="1" 
 F 0 "D49" H 5244 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 5300 50  0001 L TNN
@@ -3630,9 +3815,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D59
+L main-rescue:WS2812B-MINI-william_led D59
 U 1 1 5F6A172D
 P 5750 5600
+AR Path="/5F6A172D" Ref="D59"  Part="1" 
+AR Path="/5DEECD42/5F6A172D" Ref="D59"  Part="1" 
 F 0 "D59" H 6144 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 5300 50  0001 L TNN
@@ -3641,9 +3828,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D69
+L main-rescue:WS2812B-MINI-william_led D69
 U 1 1 5F6A1737
 P 6650 5600
+AR Path="/5F6A1737" Ref="D69"  Part="1" 
+AR Path="/5DEECD42/5F6A1737" Ref="D69"  Part="1" 
 F 0 "D69" H 7044 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 5300 50  0001 L TNN
@@ -3652,9 +3841,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D79
+L main-rescue:WS2812B-MINI-william_led D79
 U 1 1 5F6A1741
 P 7550 5600
+AR Path="/5F6A1741" Ref="D79"  Part="1" 
+AR Path="/5DEECD42/5F6A1741" Ref="D79"  Part="1" 
 F 0 "D79" H 7944 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 5300 50  0001 L TNN
@@ -3663,9 +3854,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D89
+L main-rescue:WS2812B-MINI-william_led D89
 U 1 1 5F6A174B
 P 8450 5600
+AR Path="/5F6A174B" Ref="D89"  Part="1" 
+AR Path="/5DEECD42/5F6A174B" Ref="D89"  Part="1" 
 F 0 "D89" H 8844 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 5300 50  0001 L TNN
@@ -3674,9 +3867,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D99
+L main-rescue:WS2812B-MINI-william_led D99
 U 1 1 5F6A1755
 P 9350 5600
+AR Path="/5F6A1755" Ref="D99"  Part="1" 
+AR Path="/5DEECD42/5F6A1755" Ref="D99"  Part="1" 
 F 0 "D99" H 9744 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 5300 50  0001 L TNN
@@ -3685,9 +3880,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 5225 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D109
+L main-rescue:WS2812B-MINI-william_led D109
 U 1 1 5F6A175F
 P 10250 5600
+AR Path="/5F6A175F" Ref="D109"  Part="1" 
+AR Path="/5DEECD42/5F6A175F" Ref="D109"  Part="1" 
 F 0 "D109" H 10644 5600 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 5375 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 5300 50  0001 L TNN
@@ -3696,9 +3893,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 5225 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D110
+L main-rescue:WS2812B-MINI-william_led D110
 U 1 1 5F6A1769
 P 10250 6200
+AR Path="/5F6A1769" Ref="D110"  Part="1" 
+AR Path="/5DEECD42/5F6A1769" Ref="D110"  Part="1" 
 F 0 "D110" H 10644 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 10300 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 10300 5900 50  0001 L TNN
@@ -3707,9 +3906,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10350 5825 50  0001
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D100
+L main-rescue:WS2812B-MINI-william_led D100
 U 1 1 5F6A1773
 P 9350 6200
+AR Path="/5F6A1773" Ref="D100"  Part="1" 
+AR Path="/5DEECD42/5F6A1773" Ref="D100"  Part="1" 
 F 0 "D100" H 9744 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 9400 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 9400 5900 50  0001 L TNN
@@ -3718,9 +3919,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9450 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D90
+L main-rescue:WS2812B-MINI-william_led D90
 U 1 1 5F6A177D
 P 8450 6200
+AR Path="/5F6A177D" Ref="D90"  Part="1" 
+AR Path="/5DEECD42/5F6A177D" Ref="D90"  Part="1" 
 F 0 "D90" H 8844 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 8500 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 8500 5900 50  0001 L TNN
@@ -3729,9 +3932,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8550 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D80
+L main-rescue:WS2812B-MINI-william_led D80
 U 1 1 5F6A1787
 P 7550 6200
+AR Path="/5F6A1787" Ref="D80"  Part="1" 
+AR Path="/5DEECD42/5F6A1787" Ref="D80"  Part="1" 
 F 0 "D80" H 7944 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 7600 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 7600 5900 50  0001 L TNN
@@ -3740,9 +3945,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D70
+L main-rescue:WS2812B-MINI-william_led D70
 U 1 1 5F6A1791
 P 6650 6200
+AR Path="/5F6A1791" Ref="D70"  Part="1" 
+AR Path="/5DEECD42/5F6A1791" Ref="D70"  Part="1" 
 F 0 "D70" H 7044 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 6700 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 6700 5900 50  0001 L TNN
@@ -3751,9 +3958,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6750 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D60
+L main-rescue:WS2812B-MINI-william_led D60
 U 1 1 5F6A179B
 P 5750 6200
+AR Path="/5F6A179B" Ref="D60"  Part="1" 
+AR Path="/5DEECD42/5F6A179B" Ref="D60"  Part="1" 
 F 0 "D60" H 6144 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 5800 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 5800 5900 50  0001 L TNN
@@ -3762,9 +3971,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D50
+L main-rescue:WS2812B-MINI-william_led D50
 U 1 1 5F6A17A5
 P 4850 6200
+AR Path="/5F6A17A5" Ref="D50"  Part="1" 
+AR Path="/5DEECD42/5F6A17A5" Ref="D50"  Part="1" 
 F 0 "D50" H 5244 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4900 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4900 5900 50  0001 L TNN
@@ -3773,9 +3984,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4950 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D40
+L main-rescue:WS2812B-MINI-william_led D40
 U 1 1 5F6A17AF
 P 3950 6200
+AR Path="/5F6A17AF" Ref="D40"  Part="1" 
+AR Path="/5DEECD42/5F6A17AF" Ref="D40"  Part="1" 
 F 0 "D40" H 4344 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 5900 50  0001 L TNN
@@ -3784,9 +3997,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D30
+L main-rescue:WS2812B-MINI-william_led D30
 U 1 1 5F6A17B9
 P 3050 6200
+AR Path="/5F6A17B9" Ref="D30"  Part="1" 
+AR Path="/5DEECD42/5F6A17B9" Ref="D30"  Part="1" 
 F 0 "D30" H 3444 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 5900 50  0001 L TNN
@@ -3795,9 +4010,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D20
+L main-rescue:WS2812B-MINI-william_led D20
 U 1 1 5F6A17C3
 P 2150 6200
+AR Path="/5F6A17C3" Ref="D20"  Part="1" 
+AR Path="/5DEECD42/5F6A17C3" Ref="D20"  Part="1" 
 F 0 "D20" H 2544 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 5900 50  0001 L TNN
@@ -3806,9 +4023,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 5825 50  0001 
 	-1   0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D10
+L main-rescue:WS2812B-MINI-william_led D10
 U 1 1 5F6A17CD
 P 1250 6200
+AR Path="/5F6A17CD" Ref="D10"  Part="1" 
+AR Path="/5DEECD42/5F6A17CD" Ref="D10"  Part="1" 
 F 0 "D10" H 1644 6200 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 5975 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 5900 50  0001 L TNN
@@ -4477,10 +4696,10 @@ Connection ~ 10250 6450
 Wire Wire Line
 	10250 6450 10800 6450
 $Comp
-L Device:C C?
+L Device:C C120
 U 1 1 5FC302C1
 P 1700 6800
-F 0 "C?" H 1700 6900 50  0000 L CNN
+F 0 "C120" H 1700 6900 50  0000 L CNN
 F 1 "100N" H 1600 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1738 6650 50  0001 C CNN
 F 3 "~" H 1700 6800 50  0001 C CNN
@@ -4494,10 +4713,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 6800 1800 6800
 $Comp
-L Device:C C?
+L Device:C C125
 U 1 1 5FC302CE
 P 2600 6800
-F 0 "C?" H 2600 6900 50  0000 L CNN
+F 0 "C125" H 2600 6900 50  0000 L CNN
 F 1 "100N" H 2500 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 6650 50  0001 C CNN
 F 3 "~" H 2600 6800 50  0001 C CNN
@@ -4511,10 +4730,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 6800 2700 6800
 $Comp
-L Device:C C?
+L Device:C C126
 U 1 1 5FC302DB
 P 3500 6800
-F 0 "C?" H 3500 6900 50  0000 L CNN
+F 0 "C126" H 3500 6900 50  0000 L CNN
 F 1 "100N" H 3400 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 6650 50  0001 C CNN
 F 3 "~" H 3500 6800 50  0001 C CNN
@@ -4528,10 +4747,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 6800 3600 6800
 $Comp
-L Device:C C?
+L Device:C C127
 U 1 1 5FC302E8
 P 4400 6800
-F 0 "C?" H 4400 6900 50  0000 L CNN
+F 0 "C127" H 4400 6900 50  0000 L CNN
 F 1 "100N" H 4300 6700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 6650 50  0001 C CNN
 F 3 "~" H 4400 6800 50  0001 C CNN
@@ -4567,10 +4786,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 6550 3950 6550
 $Comp
-L william_led:WS2812B-MINI D?
+L main-rescue:WS2812B-MINI-william_led D?
 U 1 1 5FC30303
 P 1250 6800
-F 0 "D?" H 1644 6800 50  0000 L CNN
+AR Path="/5FC30303" Ref="D?"  Part="1" 
+AR Path="/5DEECD42/5FC30303" Ref="D111"  Part="1" 
+F 0 "D111" H 1644 6800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 1300 6575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 1300 6500 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 6425 50  0001 L TNN
@@ -4578,10 +4799,12 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1350 6425 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D?
+L main-rescue:WS2812B-MINI-william_led D?
 U 1 1 5FC3030D
 P 2150 6800
-F 0 "D?" H 2544 6800 50  0000 L CNN
+AR Path="/5FC3030D" Ref="D?"  Part="1" 
+AR Path="/5DEECD42/5FC3030D" Ref="D112"  Part="1" 
+F 0 "D112" H 2544 6800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 2200 6575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 2200 6500 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 6425 50  0001 L TNN
@@ -4589,10 +4812,12 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2250 6425 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D?
+L main-rescue:WS2812B-MINI-william_led D?
 U 1 1 5FC30317
 P 3050 6800
-F 0 "D?" H 3444 6800 50  0000 L CNN
+AR Path="/5FC30317" Ref="D?"  Part="1" 
+AR Path="/5DEECD42/5FC30317" Ref="D113"  Part="1" 
+F 0 "D113" H 3444 6800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 3100 6575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 3100 6500 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 6425 50  0001 L TNN
@@ -4600,10 +4825,12 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 6425 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L william_led:WS2812B-MINI D?
+L main-rescue:WS2812B-MINI-william_led D?
 U 1 1 5FC30321
 P 3950 6800
-F 0 "D?" H 4344 6800 50  0000 L CNN
+AR Path="/5FC30321" Ref="D?"  Part="1" 
+AR Path="/5DEECD42/5FC30321" Ref="D114"  Part="1" 
+F 0 "D114" H 4344 6800 50  0000 L CNN
 F 1 "WS2812B-MINI" H 4000 6575 50  0001 L TNN
 F 2 "william_led:WS2812B_v3-MINI" H 4000 6500 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 6425 50  0001 L TNN
@@ -4634,9 +4861,9 @@ Wire Wire Line
 Connection ~ 1250 7050
 Wire Wire Line
 	1250 7050 800  7050
-Text HLabel 800  6550 0    50   Input ~ 0
+Text HLabel 800  7050 0    50   Input ~ 0
 5V
-Text HLabel 800  7050 0    50   Output ~ 0
+Text HLabel 800  6550 0    50   Output ~ 0
 GND
 Wire Wire Line
 	500  6200 500  6800
